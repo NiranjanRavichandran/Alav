@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		427BB06F20A8B8AF00A781DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427BB06E20A8B8AF00A781DE /* AppDelegate.swift */; };
+		427BB07120A8B8AF00A781DE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427BB07020A8B8AF00A781DE /* ViewController.swift */; };
+		427BB07420A8B8AF00A781DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427BB07220A8B8AF00A781DE /* Main.storyboard */; };
+		427BB07620A8B8B100A781DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 427BB07520A8B8B100A781DE /* Assets.xcassets */; };
+		427BB07920A8B8B100A781DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 427BB07720A8B8B100A781DE /* LaunchScreen.storyboard */; };
+		427BB08420A8B8B100A781DE /* AlavuUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 427BB08320A8B8B100A781DE /* AlavuUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		427BB08020A8B8B100A781DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 427BB06320A8B8AF00A781DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 427BB06A20A8B8AF00A781DE;
+			remoteInfo = Alavu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		427BB06B20A8B8AF00A781DE /* Alavu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alavu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		427BB06E20A8B8AF00A781DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		427BB07020A8B8AF00A781DE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		427BB07320A8B8AF00A781DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		427BB07520A8B8B100A781DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		427BB07820A8B8B100A781DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		427BB07A20A8B8B100A781DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		427BB07F20A8B8B100A781DE /* AlavuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlavuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		427BB08320A8B8B100A781DE /* AlavuUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlavuUITests.swift; sourceTree = "<group>"; };
+		427BB08520A8B8B100A781DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		427BB06820A8B8AF00A781DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427BB07C20A8B8B100A781DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		427BB06220A8B8AF00A781DE = {
+			isa = PBXGroup;
+			children = (
+				427BB06D20A8B8AF00A781DE /* Alavu */,
+				427BB08220A8B8B100A781DE /* AlavuUITests */,
+				427BB06C20A8B8AF00A781DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		427BB06C20A8B8AF00A781DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				427BB06B20A8B8AF00A781DE /* Alavu.app */,
+				427BB07F20A8B8B100A781DE /* AlavuUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		427BB06D20A8B8AF00A781DE /* Alavu */ = {
+			isa = PBXGroup;
+			children = (
+				427BB06E20A8B8AF00A781DE /* AppDelegate.swift */,
+				427BB07020A8B8AF00A781DE /* ViewController.swift */,
+				427BB07220A8B8AF00A781DE /* Main.storyboard */,
+				427BB07520A8B8B100A781DE /* Assets.xcassets */,
+				427BB07720A8B8B100A781DE /* LaunchScreen.storyboard */,
+				427BB07A20A8B8B100A781DE /* Info.plist */,
+			);
+			path = Alavu;
+			sourceTree = "<group>";
+		};
+		427BB08220A8B8B100A781DE /* AlavuUITests */ = {
+			isa = PBXGroup;
+			children = (
+				427BB08320A8B8B100A781DE /* AlavuUITests.swift */,
+				427BB08520A8B8B100A781DE /* Info.plist */,
+			);
+			path = AlavuUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		427BB06A20A8B8AF00A781DE /* Alavu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427BB08820A8B8B100A781DE /* Build configuration list for PBXNativeTarget "Alavu" */;
+			buildPhases = (
+				427BB06720A8B8AF00A781DE /* Sources */,
+				427BB06820A8B8AF00A781DE /* Frameworks */,
+				427BB06920A8B8AF00A781DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alavu;
+			productName = Alavu;
+			productReference = 427BB06B20A8B8AF00A781DE /* Alavu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		427BB07E20A8B8B100A781DE /* AlavuUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 427BB08B20A8B8B100A781DE /* Build configuration list for PBXNativeTarget "AlavuUITests" */;
+			buildPhases = (
+				427BB07B20A8B8B100A781DE /* Sources */,
+				427BB07C20A8B8B100A781DE /* Frameworks */,
+				427BB07D20A8B8B100A781DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				427BB08120A8B8B100A781DE /* PBXTargetDependency */,
+			);
+			name = AlavuUITests;
+			productName = AlavuUITests;
+			productReference = 427BB07F20A8B8B100A781DE /* AlavuUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		427BB06320A8B8AF00A781DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Aviato;
+				TargetAttributes = {
+					427BB06A20A8B8AF00A781DE = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					427BB07E20A8B8B100A781DE = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 427BB06A20A8B8AF00A781DE;
+					};
+				};
+			};
+			buildConfigurationList = 427BB06620A8B8AF00A781DE /* Build configuration list for PBXProject "Alavu" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 427BB06220A8B8AF00A781DE;
+			productRefGroup = 427BB06C20A8B8AF00A781DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				427BB06A20A8B8AF00A781DE /* Alavu */,
+				427BB07E20A8B8B100A781DE /* AlavuUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		427BB06920A8B8AF00A781DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427BB07920A8B8B100A781DE /* LaunchScreen.storyboard in Resources */,
+				427BB07620A8B8B100A781DE /* Assets.xcassets in Resources */,
+				427BB07420A8B8AF00A781DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427BB07D20A8B8B100A781DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		427BB06720A8B8AF00A781DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427BB07120A8B8AF00A781DE /* ViewController.swift in Sources */,
+				427BB06F20A8B8AF00A781DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		427BB07B20A8B8B100A781DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				427BB08420A8B8B100A781DE /* AlavuUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		427BB08120A8B8B100A781DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 427BB06A20A8B8AF00A781DE /* Alavu */;
+			targetProxy = 427BB08020A8B8B100A781DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		427BB07220A8B8AF00A781DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427BB07320A8B8AF00A781DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		427BB07720A8B8B100A781DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				427BB07820A8B8B100A781DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		427BB08620A8B8B100A781DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		427BB08720A8B8B100A781DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		427BB08920A8B8B100A781DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R8U9B2AP5;
+				INFOPLIST_FILE = Alavu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviato.Alavu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		427BB08A20A8B8B100A781DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R8U9B2AP5;
+				INFOPLIST_FILE = Alavu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviato.Alavu;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		427BB08C20A8B8B100A781DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R8U9B2AP5;
+				INFOPLIST_FILE = AlavuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviato.AlavuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alavu;
+			};
+			name = Debug;
+		};
+		427BB08D20A8B8B100A781DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7R8U9B2AP5;
+				INFOPLIST_FILE = AlavuUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aviato.AlavuUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alavu;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		427BB06620A8B8AF00A781DE /* Build configuration list for PBXProject "Alavu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427BB08620A8B8B100A781DE /* Debug */,
+				427BB08720A8B8B100A781DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427BB08820A8B8B100A781DE /* Build configuration list for PBXNativeTarget "Alavu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427BB08920A8B8B100A781DE /* Debug */,
+				427BB08A20A8B8B100A781DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		427BB08B20A8B8B100A781DE /* Build configuration list for PBXNativeTarget "AlavuUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				427BB08C20A8B8B100A781DE /* Debug */,
+				427BB08D20A8B8B100A781DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 427BB06320A8B8AF00A781DE /* Project object */;
+}
